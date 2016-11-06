@@ -1,0 +1,38 @@
+package sw.epn;
+
+import java.time.Year;
+
+public class Persona 
+{
+	private String nombre;
+	private int edad;
+	private double estatura;
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	public int getEdad() {
+		return edad;
+	}
+	public void setEdad(int edad) {
+		this.edad = edad;
+	}
+	public double getEstatura() {
+		return estatura;
+	}
+	public void setEstatura(double estatura) {
+		this.estatura = estatura;
+	}
+	
+	public String toString() 
+	{
+		String salida = "";
+		salida = "Nombre: "+nombre+"\nEdad: "+edad+"\nEstatura: "+estatura;
+		return salida;
+	}
+	
+	
+
+}
